@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "216165df-599a-4e66-b922-2a97a45953ac",
+		"name": "Node TEST TASK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26194544"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Register User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"test4@gmail.com\",\n    \"password\":\"test1@123\",\n    \"name\":\"test1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/user/register",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Signin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"test1@gmail.com\",\n    \"password\":\"test1@123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/user/signin",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"user",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get user with auth middleware",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjZlZDdmNjhjMTZmYTU1NzQzODA5ZGYiLCJpYXQiOjE3MTg1NDA2MTksImV4cCI6MTcxODU0NDIxOX0.JxH2qQTM6IewvUIOuWtNqIJmDjevCz2EYBPbpAiS9MU",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/user/me",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"user",
+								"me"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Social",
+			"item": [
+				{
+					"name": "Google",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "facebook",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/auth/facebook",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"auth",
+								"facebook"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "http://localhost:8000/api/v1",
+			"type": "string"
+		}
+	]
+}

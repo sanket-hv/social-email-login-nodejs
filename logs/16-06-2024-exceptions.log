@@ -1,0 +1,590 @@
+[0m[[31MERROR[39M]: [16-06-2024 17:29:16:2916 +05:30] ReferenceError: GoogleStrategy is not defined
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/routes/auth.routes.js:13:18)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/routes/index.js:7:21)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10) [+171ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:34:16:3416 +05:30] /Users/sankethv/Desktop/node-test-task/routes/auth.routes.js:7
+router.use(session({ secret: "node-test", resave: }))
+                                                  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/routes/index.js:7:21)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+159ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:36:33:3633 +05:30] /Users/sankethv/Desktop/node-test-task/routes/auth.routes.js:29
+            let user = await DB.User.findOne({ email });
+                       ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/routes/index.js:7:21)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+166ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:36:39:3639 +05:30] /Users/sankethv/Desktop/node-test-task/routes/auth.routes.js:29
+            let user = await DB.User.findOne({ email });
+                       ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/routes/index.js:7:21)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+164ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:36:48:3648 +05:30] /Users/sankethv/Desktop/node-test-task/routes/auth.routes.js:26
+        process.nextTick( () {
+                           ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/routes/index.js:7:21)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+159ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:36:50:3650 +05:30] /Users/sankethv/Desktop/node-test-task/routes/auth.routes.js:26
+        process.nextTick () {
+                            ^
+
+SyntaxError: Unexpected token '{'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/routes/index.js:7:21)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+161ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:36:53:3653 +05:30] /Users/sankethv/Desktop/node-test-task/routes/auth.routes.js:26
+        process.nextTick( () {
+                           ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/routes/index.js:7:21)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+161ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:37:21:3721 +05:30] ReferenceError: DB is not defined
+    at /Users/sankethv/Desktop/node-test-task/routes/auth.routes.js:29:24
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) [+553ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:44:26:4426 +05:30] /Users/sankethv/Desktop/node-test-task/config/passportSetup.config.js:33
+            let user = await DB.User.findOne({ email });
+                       ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/routes/auth.routes.js:16:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+217ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:44:34:4434 +05:30] /Users/sankethv/Desktop/node-test-task/config/passportSetup.config.js:30
+        process.nextTick(async () {
+                                ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/routes/auth.routes.js:16:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+216ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:44:45:4445 +05:30] TypeError: DB.User.create is not a constructor
+    at /Users/sankethv/Desktop/node-test-task/config/passportSetup.config.js:35:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) [+600ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:45:14:4514 +05:30] Error: Illegal arguments: undefined, number
+    at _async (/Users/sankethv/Desktop/node-test-task/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/sankethv/Desktop/node-test-task/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at bcrypt.hash (/Users/sankethv/Desktop/node-test-task/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at model.<anonymous> (/Users/sankethv/Desktop/node-test-task/models/user.model.js:35:35)
+    at callMiddlewareFunction (/Users/sankethv/Desktop/node-test-task/node_modules/kareem/index.js:628:27)
+    at model.next (/Users/sankethv/Desktop/node-test-task/node_modules/kareem/index.js:93:7)
+    at _next (/Users/sankethv/Desktop/node-test-task/node_modules/kareem/index.js:146:10)
+    at /Users/sankethv/Desktop/node-test-task/node_modules/kareem/index.js:653:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) [+2ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:46:13:4613 +05:30] /Users/sankethv/Desktop/node-test-task/controllers/user/user.controller.js:15
+        const newUser = await DB.User.create(req.body);
+        ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/controllers/index.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+7ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:46:16:4616 +05:30] /Users/sankethv/Desktop/node-test-task/controllers/user/user.controller.js:15
+        const newUser = await DB.User.create(req.body);
+        ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/controllers/index.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+7ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:46:18:4618 +05:30] /Users/sankethv/Desktop/node-test-task/controllers/user/user.controller.js:13
+            const pass
+                  ^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/controllers/index.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+7ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:46:21:4621 +05:30] /Users/sankethv/Desktop/node-test-task/controllers/user/user.controller.js:15
+        const newUser = await DB.User.create(req.body);
+        ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/controllers/index.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+8ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:46:28:4628 +05:30] /Users/sankethv/Desktop/node-test-task/controllers/user/user.controller.js:15
+        const newUser = await DB.User.create(req.body);
+              ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/controllers/index.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+7ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:46:32:4632 +05:30] /Users/sankethv/Desktop/node-test-task/controllers/user/user.controller.js:15
+        const newUser = await DB.User.create(req.body);
+              ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/controllers/index.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+10ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:46:53:4653 +05:30] /Users/sankethv/Desktop/node-test-task/models/user.model.js:35
+            this?.password = await hash(this.password, 10);
+            ^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/models/index.js:2:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+11ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:46:55:4655 +05:30] /Users/sankethv/Desktop/node-test-task/models/user.model.js:35
+            this?.password = await hash(this.password, 10);
+            ^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/models/index.js:2:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+8ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:46:57:4657 +05:30] /Users/sankethv/Desktop/node-test-task/models/user.model.js:35
+            this?.password = hash(this.password, 10);
+            ^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/models/index.js:2:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+9ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:47:05:475 +05:30] /Users/sankethv/Desktop/node-test-task/models/user.model.js:35
+            this?.password = hash(this.password, 10);
+            ^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/models/index.js:2:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+7ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:47:09:479 +05:30] /Users/sankethv/Desktop/node-test-task/models/user.model.js:35
+            this?.password = hash(this.password, 10);
+            ^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/models/index.js:2:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+7ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:47:17:4717 +05:30] /Users/sankethv/Desktop/node-test-task/models/user.model.js:36
+        if (this.isModified('password') || this.isNew)
+        ^^
+
+SyntaxError: Unexpected token 'if'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/models/index.js:2:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+8ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:47:19:4719 +05:30] /Users/sankethv/Desktop/node-test-task/models/user.model.js:35
+        if()
+           ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/models/index.js:2:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+8ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:47:22:4722 +05:30] /Users/sankethv/Desktop/node-test-task/models/user.model.js:37
+            this?.password = hash(this.password, 10);
+            ^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/models/index.js:2:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+8ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:47:31:4731 +05:30] /Users/sankethv/Desktop/node-test-task/models/user.model.js:37
+            this?.password = hash(this.password, 10);
+            ^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/models/index.js:2:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+9ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:47:34:4734 +05:30] /Users/sankethv/Desktop/node-test-task/models/user.model.js:38
+            this?.password = hash(this.password, 10);
+            ^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/models/index.js:2:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+8ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:47:38:4738 +05:30] /Users/sankethv/Desktop/node-test-task/models/user.model.js:38
+            this?.password = hash(this.password, 10);
+            ^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/models/index.js:2:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+7ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:47:58:4758 +05:30] Error: Illegal arguments: undefined, number
+    at _async (/Users/sankethv/Desktop/node-test-task/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/sankethv/Desktop/node-test-task/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at bcrypt.hash (/Users/sankethv/Desktop/node-test-task/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at model.<anonymous> (/Users/sankethv/Desktop/node-test-task/models/user.model.js:38:29)
+    at callMiddlewareFunction (/Users/sankethv/Desktop/node-test-task/node_modules/kareem/index.js:628:27)
+    at model.next (/Users/sankethv/Desktop/node-test-task/node_modules/kareem/index.js:93:7)
+    at _next (/Users/sankethv/Desktop/node-test-task/node_modules/kareem/index.js:146:10)
+    at /Users/sankethv/Desktop/node-test-task/node_modules/kareem/index.js:653:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) [+675ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:48:35:4835 +05:30] /Users/sankethv/Desktop/node-test-task/models/user.model.js:36
+        if (!this.password ==) next();
+                             ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/models/index.js:2:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+19ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:59:25:5925 +05:30] ReferenceError: auth is not defined
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/routes/user.routes.js:11:19)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/routes/index.js:6:21)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10) [+167ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 17:59:54:5954 +05:30] /Users/sankethv/Desktop/node-test-task/controllers/user/user.controller.js:43
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/controllers/index.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+8ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 18:00:04:04 +05:30] /Users/sankethv/Desktop/node-test-task/controllers/user/user.controller.js:45
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/controllers/index.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+9ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 18:00:09:09 +05:30] /Users/sankethv/Desktop/node-test-task/controllers/user/user.controller.js:45
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/controllers/index.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+7ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 18:00:32:032 +05:30] /Users/sankethv/Desktop/node-test-task/controllers/user/user.controller.js:47
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/controllers/index.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+11ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 18:00:35:035 +05:30] /Users/sankethv/Desktop/node-test-task/controllers/user/user.controller.js:47
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/controllers/index.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+8ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 18:00:45:045 +05:30] /Users/sankethv/Desktop/node-test-task/controllers/user/user.controller.js:46
+        if(!userExists) response.NOT_FOUND({res, message: })
+                                                          ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/controllers/index.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+7ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 18:01:10:110 +05:30] /Users/sankethv/Desktop/node-test-task/controllers/user/user.controller.js:48
+        return response.OK({res, message: })
+                                          ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/controllers/index.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+9ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 18:01:19:119 +05:30] /Users/sankethv/Desktop/node-test-task/controllers/user/user.controller.js:48
+        return response.OK({res, message: MESSAGE.})
+                                                  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/controllers/index.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+7ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 18:06:48:648 +05:30] /Users/sankethv/Desktop/node-test-task/middleware/auth.middleware.js:10
+        const token = req.header("x-auth-token");
+              ^
+
+SyntaxError: Identifier 'token' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/routes/user.routes.js:5:18)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+404ms][0m
+[0m[[31MERROR[39M]: [16-06-2024 18:09:11:911 +05:30] /Users/sankethv/Desktop/node-test-task/routes/user.routes.js:12
+router.get("/me", auth, APIS.)
+                             ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/Users/sankethv/Desktop/node-test-task/routes/index.js:6:21)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14) [+8ms][0m

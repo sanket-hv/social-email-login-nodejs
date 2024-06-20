@@ -1,0 +1,7 @@
+{
+  "AUTH_TYPE": {
+    "FACEBOOK": "facebook",
+    "GOOGLE": "google",
+    "EMAIL": "email"
+  }
+}
